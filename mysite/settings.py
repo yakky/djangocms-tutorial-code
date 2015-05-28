@@ -138,7 +138,8 @@ INSTALLED_APPS = (
     'djangocms_teaser',
     'djangocms_video',
     'reversion',
-    'mysite'
+    'mysite',
+    'polls',
 )
 
 LANGUAGES = (
