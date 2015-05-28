@@ -19,7 +19,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Project name</a>
+              <a class="navbar-brand" href="/">Project name</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -29,10 +29,12 @@
           </div>
         {% block content %}
         {% endblock content %}
+        <footer>
+            {% static_placeholder 'footer' %}
+        </footer>
         </div>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     {% render_block "js" %}
   </body>
 </html>
-
