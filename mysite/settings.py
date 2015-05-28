@@ -140,6 +140,7 @@ INSTALLED_APPS = (
     'reversion',
     'mysite',
     'polls',
+    'polls_plugin',
 )
 
 LANGUAGES = (
